@@ -13,6 +13,6 @@ export class Categoria{
 
     @IsNotEmpty()
     @Column({length: 1000, nullable: false})
-    descricao: string // exemplo: remedio para dor de cabeça, remedio para controle de febre e dor
+    descricao: string // exemplo: remedio para dor de cabeça, remedio para controle de febre e dor, suplemento
 
 }
